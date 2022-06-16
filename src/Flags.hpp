@@ -1,0 +1,14 @@
+#pragma once
+
+enum class ErrorFlag {
+    NONE,
+    FILE_NOT_FOUND,
+    EDGE_INFO_COUNT,
+    EDGE_EMPTY,
+    STOI_ERROR,
+    STOF_ERROR,
+    CYCLE_NEGATIVE_WEIGHT,
+    CYCLE_POSITIVE_WEIGHT,
+    SOURCE_OUT_OF_BOUNDS,
+    GRAPH_WITH_ERROR
+};
